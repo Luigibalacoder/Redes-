@@ -3,16 +3,16 @@ print('Bem vindo ao seu computador de bordo')
 
 
 
-horapartida,minutopartida = (input('infome o horario quando sairam 00:00')).split(":")
+horapartida,minutopartida = (input('infome o horario quando sairam 00:00 ')).split(":")
 horapartida, minutopartida = int(horapartida), int(minutopartida)
 
 horachegada,minutochegada = (input('Digite a hora de Chegada 00:00 ')).split(":")
 horachegada,minutochegada = int(horachegada), int(minutochegada)
 
-descanso = int(input('informe quantos segundos ficaram parados para descansar:')) //3600
+descanso = int(input('informe quantos segundos ficaram parados para descansar: ')) //3600
 
-combustivel = float(input('quantos Litros de Combustível gastaram'))
-preço_combustivel = float(input('Preço da Gasosa'))
+combustivel = float(input('quantos Litros de Combustível gastaram: '))
+preço_combustivel = float(input('Preço da Gasosa': ))
 
 distancia = float(input('Quantos Km de viagem: '))
 
