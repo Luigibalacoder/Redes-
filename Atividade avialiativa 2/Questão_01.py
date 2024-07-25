@@ -14,7 +14,7 @@ if Material < 0.0:
 else:
 
 
-    print (f'Massa inicial de{Material}g')
+    print (f'Massa inicial de {Material}g')
 
     while Material > massa_final:
         Material /= 2
@@ -26,5 +26,5 @@ else:
     segundos = tempo_seg % 60
 
 
-    print (f'Massa final de{Material}g')
-    print (f'tempo de decaimento:{minutos}:{segundos} ')
+    print (f'Massa final de {Material}g\ntempo de decaimento:{hora}:{minutos}:{segundos} ')
+     
